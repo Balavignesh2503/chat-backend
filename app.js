@@ -19,7 +19,7 @@ mongoose
     console.log(e);
   });
 
-  app.use('api/user',userRoutes);
+  app.use('',userRoutes);
   // app.post('/api/user',(req,res)=>{
   //   const{name,email,pass,pic}=req.body;
   //   User.findOne({email})
